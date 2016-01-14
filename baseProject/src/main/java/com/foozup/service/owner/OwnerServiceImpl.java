@@ -1,5 +1,8 @@
 package com.foozup.service.owner;
 
-public class OwnerServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service("ownerService")
+public class OwnerServiceImpl implements OwnerService{
 
 }

@@ -43,7 +43,7 @@ public class SampleRestController {
 
 	//-------------------Retrieve Single User--------------------------------------------------------
 	
-	@RequestMapping(value = "{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<User> getUser(@PathVariable("id") long id) {
 		System.out.println("Fetching User with id " + id);
 		User user = userService.findById(id);

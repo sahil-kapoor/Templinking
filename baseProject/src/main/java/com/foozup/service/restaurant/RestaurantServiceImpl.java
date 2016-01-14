@@ -1,5 +1,8 @@
 package com.foozup.service.restaurant;
 
-public class RestaurantServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service("restaurantService")
+public class RestaurantServiceImpl implements RestaurantService{
 
 }
