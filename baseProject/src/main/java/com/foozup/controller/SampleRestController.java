@@ -1,4 +1,4 @@
-package com.base.controller;
+package com.foozup.controller;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.base.dao.city.CityDao;
-import com.base.model.User;
-import com.base.service.UserService;
+import com.foozup.dao.city.CityDao;
+import com.foozup.model.User;
+import com.foozup.service.UserService;
 
 @RestController
 @RequestMapping(value="/user/")

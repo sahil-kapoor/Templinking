@@ -6,11 +6,11 @@ import java.util.List;
 
 import org.springframework.web.client.RestTemplate;
 
-import com.base.model.User;
+import com.foozup.model.User;
 
 public class SpringRestTestClient {
 
-	public static final String REST_SERVICE_URI = "http://localhost:8080/projectBase";
+	public static final String REST_SERVICE_URI = "http://localhost:8080/tempLinking";
 	
 	/* GET */
 	@SuppressWarnings("unchecked")

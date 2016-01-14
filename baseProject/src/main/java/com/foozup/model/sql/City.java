@@ -1,4 +1,4 @@
-package com.base.model.sql;
+package com.foozup.model.sql;
 
 public class City {
 

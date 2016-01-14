@@ -1,4 +1,4 @@
-package com.base.model;
+package com.foozup.model;
 
 public class User {
 

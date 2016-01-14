@@ -1,4 +1,4 @@
-package com.base.configuration;
+package com.foozup.configuration;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 

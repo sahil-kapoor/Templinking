@@ -1,4 +1,4 @@
-package com.base.dao;
+package com.foozup.dao;
 
 import javax.sql.DataSource;
 

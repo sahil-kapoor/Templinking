@@ -43,7 +43,7 @@
 
 
 	<!-- By default, the level of the root level is set to DEBUG -->
-	<logger name="com.base" level="debug" additivity="false">
+	<logger name="com.foozup" level="debug" additivity="false">
 		
 		<appender-ref ref="FILE" />
 	</logger>

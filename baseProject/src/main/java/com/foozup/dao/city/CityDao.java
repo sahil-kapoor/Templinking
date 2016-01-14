@@ -1,4 +1,4 @@
-package com.base.dao.city;
+package com.foozup.dao.city;
 
 public interface CityDao{
 	

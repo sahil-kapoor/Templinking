@@ -1,4 +1,4 @@
-package com.base.service;
+package com.foozup.service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.base.model.User;
+import com.foozup.model.User;
 
 @Service("userService")
 @Transactional

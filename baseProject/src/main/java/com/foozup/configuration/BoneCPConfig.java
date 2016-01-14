@@ -1,4 +1,4 @@
-package com.base.configuration;
+package com.foozup.configuration;
 
 import javax.sql.DataSource;
 

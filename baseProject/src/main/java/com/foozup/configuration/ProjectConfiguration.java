@@ -1,4 +1,4 @@
-package com.base.configuration;
+package com.foozup.configuration;
 
 import javax.sql.DataSource;
 
@@ -11,13 +11,13 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import com.base.dao.AbstractDao;
-import com.base.dao.city.CityDao;
-import com.base.dao.city.CityDaoImpl;
+import com.foozup.dao.AbstractDao;
+import com.foozup.dao.city.CityDao;
+import com.foozup.dao.city.CityDaoImpl;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.base")
+@ComponentScan(basePackages = "com.foozup")
 @Import(SwaggerConfiguration.class)
 public class ProjectConfiguration extends WebMvcConfigurerAdapter {
 

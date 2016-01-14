@@ -1,9 +1,9 @@
-package com.base.dao.city;
+package com.foozup.dao.city;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.base.dao.AbstractDao;
+import com.foozup.dao.AbstractDao;
 
 public class CityDaoImpl implements CityDao {
 

@@ -1,8 +1,8 @@
-package com.base.service;
+package com.foozup.service;
 
 import java.util.List;
 
-import com.base.model.User;
+import com.foozup.model.User;
 
 
 
